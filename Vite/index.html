@@ -18,8 +18,13 @@
   import { sayHello } from "./say-hello.js";
   import { sayGoodbye } from "./say-goodbye.ts";
   import { v4 as uuidv4 } from "uuid";
+  import * as person from "./person.json";
 
   sayHello("Reza");
   sayGoodbye("Reza");
   console.log("Generated UUID:", uuidv4());
+
+  console.log("Person Name:", person.name);
+  console.log("Person Age:", person.age);
+  console.log("Person Location:", person.location);
 </script>
