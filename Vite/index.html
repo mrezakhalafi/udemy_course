@@ -12,19 +12,30 @@
   <body>
     <h1>Hello Vite</h1>
     <h2>This is a SASS styled heading</h2>
+    <img
+      src="M Reza Khalafi - New.jpeg"
+      alt="M Reza Khalafi"
+      style="height: 50px; width: auto"
+    />
   </body>
 </html>
 <script type="module">
   import { sayHello } from "./say-hello.js";
   import { sayGoodbye } from "./say-goodbye.ts";
   import { v4 as uuidv4 } from "uuid";
+
   import * as person from "./person.json";
+
+  import textFile from "./hello.txt?raw";
 
   sayHello("Reza");
   sayGoodbye("Reza");
+
   console.log("Generated UUID:", uuidv4());
 
   console.log("Person Name:", person.name);
   console.log("Person Age:", person.age);
   console.log("Person Location:", person.location);
+
+  console.log(textFile);
 </script>
