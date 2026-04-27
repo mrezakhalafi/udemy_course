@@ -28,3 +28,12 @@ console.log("b is " + b);
 var myName = "Reza";
 var myName123_$ = "Reza with allowed character variable";
 
+// 14.10
+
+var message = "Hello"
+var name = "Reza";
+
+alert(message + "," + name + "!");
+
+
+
