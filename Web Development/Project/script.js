@@ -11,7 +11,7 @@ var myName = "Reza";
 var yourName = prompt("What is your name?");
 alert("My name is " + myName + ", welcome to my course " + yourName + "!");
 
-// 14.5
+// 14.7
 
 var a = "3";
 var b = "8";
@@ -22,3 +22,9 @@ b = temp;
 
 console.log("a is " + a);
 console.log("b is " + b);
+
+// 14.8
+
+var myName = "Reza";
+var myName123_$ = "Reza with allowed character variable";
+
