@@ -49,3 +49,11 @@ alert("You already written " + tweetLength + " characters, you have " + (280 - t
 var tweet = prompt("Enter max.140 characters :");
 var sliceTweet = tweet.slice(0,140);
 alert(sliceTweet);
+
+// 14.13
+
+var name = "Reza";
+var upperCaseName = name.toUpperCase();
+var lowerCaseName = name.toLowerCase();
+alert(upperCaseName);
+alert(lowerCaseName);
