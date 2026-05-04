@@ -44,3 +44,8 @@ var tweet = prompt("Write your tweet below :");
 var tweetLength = tweet.length;
 alert("You already written " + tweetLength + " characters, you have " + (280 - tweetLength) + " characters left!");
 
+// 14.12
+
+var tweet = prompt("Enter max.140 characters :");
+var sliceTweet = tweet.slice(0,140);
+alert(sliceTweet);
