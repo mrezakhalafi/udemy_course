@@ -57,3 +57,11 @@ var upperCaseName = name.toUpperCase();
 var lowerCaseName = name.toLowerCase();
 alert(upperCaseName);
 alert(lowerCaseName);
+
+// 14.14
+
+var name = prompt("What is your name?");
+var firstLetter = name.slice(0,1).toUpperCase();
+var restLetter = name.slice(1,name.length).toLowerCase();
+
+alert("Hello, "+ firstLetter + restLetter);
