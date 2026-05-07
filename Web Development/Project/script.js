@@ -65,3 +65,9 @@ var firstLetter = name.slice(0,1).toUpperCase();
 var restLetter = name.slice(1,name.length).toLowerCase();
 
 alert("Hello, "+ firstLetter + restLetter);
+
+// 14.15
+
+var dogAge = prompt("What's your dog age?");
+var humanAge = ((dogAge - 2) * 4) + 21;
+alert("Your dog is " + humanAge + " human years old.");
